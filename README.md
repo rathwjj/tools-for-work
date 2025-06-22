@@ -2,10 +2,6 @@
 
 # **Recommended Tools Collection**
 
-[![Made With Markdown](https://img.shields.io/badge/Made%20With-Markdown-1f425f.svg)](https://commonmark.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Update](https://img.shields.io/badge/last%20update-June%202025-blue.svg)]()
-
 </div>
 
 This repository lists **recommended tools** across **networking**, **data analytics**, **NAS**, and **backup/restore** domains. The goal is to support **practical learning**, **experimentation**, and **professional deployment** of infrastructure solutions.
