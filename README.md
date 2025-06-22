@@ -1,132 +1,125 @@
-# tools-for-work
-This repository documents the key tools, platforms, and technologies I use in my daily workflow.
+<div align="center">
+
+# **Recommended Tools Collection**
+
+[![Made With Markdown](https://img.shields.io/badge/Made%20With-Markdown-1f425f.svg)](https://commonmark.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Last Update](https://img.shields.io/badge/last%20update-June%202025-blue.svg)]()
+
+</div>
+
+This repository lists **recommended tools** across **networking**, **data analytics**, **NAS**, and **backup/restore** domains. The goal is to support **practical learning**, **experimentation**, and **professional deployment** of infrastructure solutions.
 
 ---
-++++Network Related Tools++++
-Cisco Packet Tracer
-Windows / MacOS / Ubuntu
+
+## Table of Contents
+
+- [Network Related Tools](#-network-related-tools)
+- [Database and Data Analytics Tools](#-database-and-data-analytics-tools)
+- [NAS (Network-Attached Storage) Tools](#-nas-network-attached-storage-tools)
+- [Backup and Restoration Tools](#-backup-and-restoration-tools)
+
+---
+
+##  **Network Related Tools**
+
+### [**Cisco Packet Tracer**](https://www.netacad.com/courses/packet-tracer)
+**Platforms:** Windows / MacOS / Ubuntu  \
 A network configuration simulation tool. Helps hone networking configuration skills from your desktop. Great for experimenting while building, managing, and securing infrastructures.
 
-NMap / Zenmap
-Windows / MacOS / Linux (rpm) / BSD
+### [**NMap / Zenmap**](https://nmap.org/zenmap/)
+**Platforms:** Windows / MacOS / Linux (rpm) / BSD  \
 Security scanner GUI. Powerful tool for network discovery and auditing.
 
-Wireshark
-Windows / MacOS
+### [**Wireshark**](https://www.wireshark.org/)
+**Platforms:** Windows / MacOS  \
 The de facto network protocol analyzer. Deep packet inspection and protocol dissection.
 
-GNS3
-Windows / MacOS / Linux
-Advanced network emulation for Cisco and open devices. Ideal for complex lab environments.
-
-Netcat (nc)
-All Platforms (CLI)
-Lightweight networking utility for debugging and data transfer.
-
-IPerf3
-All Platforms
-A tool to measure bandwidth and network performance between systems.
-
-OpenWRT / pfSense
-Open-source router/firewall OS to simulate or manage real routing environments.
-
+### **Additional Tools:**
+- [**GNS3**](https://www.gns3.com/) – Network emulator for lab environments.  
+- [**Netcat (nc)**](https://linux.die.net/man/1/nc) – Lightweight CLI-based networking tool.  
+- [**IPerf3**](https://iperf.fr/) – Bandwidth and network performance measurement.  
+- [**OpenWRT**](https://openwrt.org/) / [**pfSense**](https://www.pfsense.org/) – Router/firewall platforms for simulation or live routing labs.
 
 ---
-++++Database and Data Analytics Related Tools++++
-SQL Tutorial – w3schools
-Web-based
+
+##  **Database and Data Analytics Tools**
+
+### [**SQL Tutorial – w3schools**](https://www.w3schools.com/sql/)
+**Platform:** Web-based  \
 Interactive SQL practice and tutorials.
 
-Tableau Public
-Web-based / Windows
-The platform to explore, create, and share data visualizations online.
+### [**Tableau Public**](https://public.tableau.com/)
+**Platform:** Web-based / Windows  \
+Explore, create, and share data visualizations online.
 
-Power Apps
-Microsoft Platform
-Low-code application platform for building custom business apps connected to your data.
+### [**Power Apps**](https://learn.microsoft.com/en-us/power-apps/)
+**Platform:** Microsoft Power Platform  \
+Low-code app platform for building custom business apps connected to your data.
 
-- Power BI
-  Microsoft Platform
-  Data analytics and reporting tool, integrates with Azure, Excel, SQL.
-
-DBeaver
-Windows / MacOS / Linux
-Universal SQL client with GUI. Supports PostgreSQL, MySQL, SQLite, and more.
-
-Metabase
-Self-hosted / SaaS
-Simple open-source BI tool for querying and visualizing your database.
-
-Apache Superset
-Web-based (self-hosted)
-Enterprise-ready BI dashboard solution.
-
-SQLite Browser (DB Browser)
-GUI-based SQL editor for SQLite databases.
+### **Additional Tools:**
+- [**Power BI**](https://powerbi.microsoft.com/) – Microsoft’s data analytics and reporting tool.  
+- [**DBeaver**](https://dbeaver.io/) – Universal SQL client with GUI support.  
+- [**Metabase**](https://www.metabase.com/) – Self-hosted BI dashboard for easy visualizations.  
+- [**Apache Superset**](https://superset.apache.org/) – Enterprise-grade open-source BI platform.  
+- [**DB Browser for SQLite**](https://sqlitebrowser.org/) – Lightweight GUI SQL browser.
 
 ---
 
-++++NAS Related Tools++++
-Unraid
-One of the most flexible NAS platforms, suitable for media servers and Docker use.
+##  **NAS (Network-Attached Storage) Tools**
 
-Nextcloud
-Self-hosted scalable NAS and collaboration suite (cloud file access, calendar, etc.).
+### [**Unraid**](https://unraid.net/)
+Flexible NAS solution ideal for media servers and virtualization.
 
-OpenMediaVault
-Debian-based NAS solution. Easy-to-use with plugins.
+### [**Nextcloud**](https://nextcloud.com/)
+Scalable, self-hosted cloud and NAS suite with calendar, contacts, and file sync.
 
-TrueNAS (FreeNAS)
-Enterprise-grade open-source NAS with ZFS, snapshots, plugins, etc.
+### [**OpenMediaVault**](https://www.openmediavault.org/)
+Debian-based easy-to-use NAS distribution.
 
-Ubuntu Server (Webmin)
-My personal preference – used with Webmin for over a decade for custom NAS setups.
+### [**TrueNAS (formerly FreeNAS)**](https://www.truenas.com/)
+Enterprise-grade NAS with ZFS, plugins, snapshot support.
 
-Proxmox VE
-Debian-based
-Virtualization and NAS + backup platform.
+### [**Ubuntu Server with Webmin**](https://www.webmin.com/deb.html)
+Customizable and secure server-based NAS used with Webmin (10+ years in production).
 
-Syncthing
-Peer-to-peer NAS syncing, encrypted and self-hosted.
+### **Kubernetes & Distro Support:**
+- **Unraid:** [GitHub community Docker/K8s plugins](https://forums.unraid.net/forum/47-docker-containers/)  
+- **Nextcloud:** [Official Helm charts](https://github.com/nextcloud/helm) & Docker images  
+- **TrueNAS:** [K3s + Docker support](https://www.truenas.com/docs/scale/)  
+- **Ubuntu:** Native K8s via [`kubeadm`](https://kubernetes.io/docs/setup/) or [`microk8s`](https://microk8s.io/)
 
-Seafile
-Lightweight cloud file server alternative to Nextcloud.
-
-
----
-++++Kubernetes solutions for each distro:++++
-
-Unraid: GitHub community plugins
-
-Nextcloud: Official Helm Charts
-
-TrueNAS: Support for K3s/Docker integration
-
-Ubuntu: Native Kubernetes install via kubeadm or microk8s
-
+### **Additional Tools:**
+- [**Proxmox VE**](https://www.proxmox.com/en/proxmox-ve) – NAS + VM hypervisor with ZFS and backup integration.  
+- [**Syncthing**](https://syncthing.net/) – Encrypted P2P syncing system.  
+- [**Seafile**](https://www.seafile.com/) – Lightweight alternative to Nextcloud.
 
 ---
-++++Backup and Restoration Related Tools++++
-(Add these as your next section — here's a solid starting set)
 
-Restic
-Fast, efficient, and secure backup tool supporting cloud and local storage.
+##  **Backup and Restoration Tools**
 
-Duplicati
-Open-source backup tool with web UI. Encrypts and uploads to cloud.
+### [**Restic**](https://restic.net/)
+Fast, encrypted, deduplicated backup solution.
 
-BorgBackup
-Deduplicating backup program with compression and encryption.
+### [**Duplicati**](https://www.duplicati.com/)
+Web-based, encrypted backup to cloud and local storage.
 
-Timeshift
-Linux only
-System restore tool similar to Windows' Restore Point.
+### [**BorgBackup**](https://www.borgbackup.org/)
+Deduplicating backup with compression and security.
 
-Veeam Backup & Replication (Community Edition)
-Free Windows-based backup solution for VMs and physical machines.
+### [**Timeshift**](https://github.com/teejee2008/timeshift)
+Linux-only system restore tool (like Windows restore point).
 
-Rclone
-Command-line tool to sync files to and from many cloud providers (Google Drive, OneDrive, etc.).
+### [**Veeam Backup & Replication (Community Edition)**](https://www.veeam.com/virtual-machine-backup-solution-free.html)
+Powerful Windows backup system for VMs and bare-metal recovery.
 
-UrBackup
-Client/server backup system for file and image backups.
+### [**Rclone**](https://rclone.org/)
+CLI tool to sync files with over 40+ cloud providers.
+
+### [**UrBackup**](https://www.urbackup.org/)
+Client-server backup for both file and image-based systems.
+
+---
+
+>  **Feel free to contribute** tools or tutorials via pull requests. This list evolves with technology and use cases.
+
