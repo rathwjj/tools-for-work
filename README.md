@@ -1,7 +1,7 @@
 # tools-for-work
 This repository documents the key tools, platforms, and technologies I use in my daily workflow.
 
-
+---
 ++++Network Related Tools++++
 Cisco Packet Tracer
 Windows / MacOS / Ubuntu
@@ -30,6 +30,8 @@ A tool to measure bandwidth and network performance between systems.
 OpenWRT / pfSense
 Open-source router/firewall OS to simulate or manage real routing environments.
 
+
+---
 ++++Database and Data Analytics Related Tools++++
 SQL Tutorial – w3schools
 Web-based
@@ -62,6 +64,8 @@ Enterprise-ready BI dashboard solution.
 SQLite Browser (DB Browser)
 GUI-based SQL editor for SQLite databases.
 
+---
+
 ++++NAS Related Tools++++
 Unraid
 One of the most flexible NAS platforms, suitable for media servers and Docker use.
@@ -88,6 +92,8 @@ Peer-to-peer NAS syncing, encrypted and self-hosted.
 Seafile
 Lightweight cloud file server alternative to Nextcloud.
 
+
+---
 ++++Kubernetes solutions for each distro:++++
 
 Unraid: GitHub community plugins
@@ -98,6 +104,8 @@ TrueNAS: Support for K3s/Docker integration
 
 Ubuntu: Native Kubernetes install via kubeadm or microk8s
 
+
+---
 ++++Backup and Restoration Related Tools++++
 (Add these as your next section — here's a solid starting set)
 
